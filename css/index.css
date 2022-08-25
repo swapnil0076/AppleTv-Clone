@@ -1,5 +1,8 @@
 #navbar {
+    position: sticky;
+    /* position:relative; */
     height: 50px;
+    /* margin: auto; */
     padding-right: 20px;
     padding-left: 20px;
     /* width: 1349px; */
@@ -8,10 +11,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0px;
 }
 
 body {
-    /* margin-top: 0px; */
     margin: 0px;
 }
 
@@ -21,6 +24,7 @@ body {
 }
 
 input {
+    border-radius: 5px;
     padding: 5px;
     background-color: black;
     border: 1px solid white;
@@ -32,29 +36,41 @@ input::placeholder {
     color: white;
 }
 
-div>a {
+ul li {
+    display: inline-block;
+}
+
+li>button {
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     background-color: #0a84ff;
+    cursor: pointer;
     color: white;
     text-decoration: none;
 }
 
 #main_pit>img {
-    width: 1347px;
-    height: 768px;
-    border: 1px solid black;
+    width: 1379px;
+    height: 770px;
+    margin-bottom: 0px;
+
 }
 
 #main_pit {
+    background-image: url(https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/a1/fb/e7/a1fbe76c-a6b8-248b-e19a-63bc94588caf/0ab1a582-f500-4585-a68e-5c5c7c6e1b7c.png/1679x945sr.jpg);
+    margin: 0px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #main_pit>h1 {
+
     font-family: "Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 100%;
     font-size: 80px;
     text-align: center;
@@ -62,6 +78,7 @@ div>a {
 }
 
 #main_pit>h2 {
+
     width: 100%;
     position: absolute;
     top: 70%;
@@ -70,27 +87,298 @@ div>a {
 }
 
 #main_pit>#btn {
+
     border-radius: 10px;
     width: 200px;
-   position: absolute;
+    cursor: pointer;
+    position: absolute;
     text-align: center;
     top: 80%;
     background-color: white;
     color: black;
     padding: 10px;
-    transform: translate(-400%);
-    
+    transform: translate(-50%);
+
 }
-#main_pit{
-    width:1349px ;
+
+#main_pit {
+    width: auto;
     position: relative;
+    margin: auto;
 }
-#main_pit>p{
+
+#main_pit>p {
     color: white;
     padding: 10px;
     margin: auto;
     text-align: center;
-    width: 100%;
+    width: 95%;
     position: absolute;
     top: 85%;
+}
+
+#most {
+    background-color: #2d2d2d;
+    height: auto;
+    margin-right: 0px;
+    padding: 20px;
+    color: #e8e8e8;
+}
+
+#popular {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#popular>div {
+
+    padding: 10px;
+    /* width: 200px; */
+}
+
+#popular>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: gray;
+}
+
+#explore {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#explore>div {
+
+    padding: 10px;
+}
+
+#explore>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#watch {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+#watch>div {
+    padding: 10px;
+}
+
+#watch>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#originals {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+#originals>div {
+    padding: 10px;
+}
+
+#originals>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#originals>div>p {
+    color: gray;
+    font-size: 12px;
+}
+
+img{
+
+    cursor: pointer;
+}
+
+#coming {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+#coming>div {
+    padding: 10px;
+}
+
+#coming>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.new {
+
+    width: 17%;
+    position: absolute;
+    text-align: center;
+    top: 2000px;
+    padding: 10px;
+}
+
+#baseball {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#baseball>div {
+    padding: 10px;
+}
+
+#baseball>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#foter {
+    position: sticky;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    background-color: #262629;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+}
+
+#foter>div {
+    cursor: pointer;
+    font-family: "Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+#start {
+    /* padding: 10px; */
+    text-align: center;
+}
+
+#start>button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+#devices {
+    background-color: black;
+    height: 810px;
+
+}
+
+#logo {
+
+    padding: 64px;
+    width: 780px;
+    height: 810px;
+    margin: auto;
+}
+
+#logo>div {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+}
+
+#logo>div>img {
+    padding: 10px;
+    width: 65px;
+}
+
+h1 {
+    font-family: "Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+p {
+    font-family: "Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+    color: #0a84ff;
+    text-decoration: none;
+}
+
+#devi {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#devi>div>img {
+    width: 105px;
+}
+#type {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+li{
+
+    text-align: center;
+    color: gray;
+    font-family:"Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;;
+}
+#type>div>img{
+    width: 105px;
+}
+img:hover{
+   opacity: 0.10;
+}
+.shade>div{
+    font-family:"Malgun Gothic", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;;
+    font-size: 17px;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.faq{
+    margin: auto;
+
+    text-align:left;
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    border-bottom:1px solid gray ;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.question h3{
+font-size: 20px;
+}
+.answer{
+    max-height: 0px;
+    overflow: hidden;
+}
+.answer p {
+    text-align: left;
+    line-height: 1.4;
+}
+.faq.active .answer{
+    max-height:300px ;
+}
+section>h1{
+    font-size: 40px;
+}
+
+.space{
+    padding-bottom: 20px;
 }
