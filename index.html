@@ -18,12 +18,12 @@
     <body>
         <div id="navbar">
             <div>
-                <img src="https://tv.apple.com/assets/brands/Apple_TV_plus_logo_white-2721485772b7d06c4e33379ce990870e.svg"
+                <img  src="https://tv.apple.com/assets/brands/Apple_TV_plus_logo_white-2721485772b7d06c4e33379ce990870e.svg"
                     alt="">
             </div>
             <div id="sin">
                 <ul>
-                    <li><input type="text" placeholder="  Search..."></li>
+                    <li><input id="search" type="text" placeholder="  Search..."></li>
                     <li> <button class="signin"><i class="fa-solid fa-user fa-sm"></i> Sign in</button>
                     </li>
                 </ul>
@@ -52,6 +52,8 @@
 
         </div>
 
+        <!--SIGN IN  -->
+
         <div class="popup">
 
             <div class="container">
@@ -66,10 +68,10 @@
                         <img src="Images\8679872_login_circle_line_icon.png" alt="" class="sign-logo">
                     </div>
                     <div class="links">
-                        <a href="">Create New Apple ID&nbsp></a><br>
+                        <a class="create">Create New Apple ID&nbsp></a><br>
 
                         <br>
-                        <a href="">Forgot Apple ID or Password?</a>
+                        <a class="forgot" href="forgotpassword.html">Forgot Apple ID or Password?</a>
                     </div>
                 </div>
 
@@ -77,35 +79,124 @@
 
 
         </div>
+        <!-- Create New Apple ID&nbsp> -->
+        <div class="pop2">
 
+            <div class="container2">
+                <div>
+                    <div class="close2">&times;</div>
+                    <div class="logo2"><img src="https://tv.apple.com/static-commerce/img/tv.4572edc9.png" alt=""></div>
+                    <div class="apple2">
+                        <h1>Apple TV App & Privacy</h1>
+                        <p>
+                            Your playback, searches,purchases, and device trust score are used to personalize your
+                            experience,
+                            improve the service, send you notifications, and prevent fraud. Your device serial number
+                            may be
+                            used to check eligibility for <br> <a href="https://support.apple.com/HT208511">See how your
+                                data is managed...</a> </p>
+
+
+                        <p>Your Apple ID information is used to allow you to sign in securely and access your data.
+                            Apple
+                            records certain data for security, support, and reporting purposes. If you agree, Apple may
+                            also
+                            use your Apple ID information to send you marketing emails and communications, including
+                            based
+                            on your use of Apple services. <br> <a href="https://support.apple.com/HT208512">See how
+                                your
+                                data is managed...</a> </p>
+
+                        <div class="conti"><button class="next">Continue</button></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--                               END                                       -->
+
+
+        <!--                           CREATE APPLE ID                                -->
+
+        <div class="pop3">
+            <div class="container3">
+                <div>
+                    <div id="smart3">
+                        <div class="close3">&times;</div>
+                        <div class="logo3"><i class="fa-brands fa-apple fa-4x"></i></div>
+                    </div>
+                    <h2>Create Apple ID</h2>
+
+                    <div class="contain3">
+                        <form class="apple_id3">
+                            <input id="name" type="text" placeholder="First Name">
+                            <input id="cast" type="text" placeholder="Last Name">
+                            <input id="dob" style="color:#494949 ;" type="Date" placeholder="Birthday">
+                            <input id="mail" type="Email" placeholder="name@example.com">
+                            <label for="">Your email will be your Apple ID.</label>
+                            <input id="pass" type="password" placeholder="Password">
+
+
+
+                            <div class="footer3">
+                                <input type="submit" value="Continue">
+                            </div>
+
+                        </form>
+
+                        <br><input type="checkbox" id="terms">
+                        <label for="terms">Agree to Terms & Conditions</label>
+
+                    </div>
+                    <div class="agree3">
+
+                        You acknowledge that you agree to the Apple Media Services <a href="">Terms & Conditions </a>
+                        when you select Continue.
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--                                  END APPLE ID                        -->
 
 
 
         <div id="most">
-            <div>
+            <div class="kind">
                 <h3>Most Popular Now</h3>
-            </div>
-            <div id="popular">
 
-                <div>
-                    <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.webp" alt="">
-                </div>
+                <div class="brave">
 
-                <div><img src="https://is1-ssl.mzstatic.com/image/thumb/I6dfv7hld3_fZZt-PoYsUQ/738x416.webp" alt="">
-                </div>
-                <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
-                </div>
-                <div><img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.webp" alt="">
-                </div>
-                <div><img src="https://is4-ssl.mzstatic.com/image/thumb/S4eF69xSeArWZz2DZKaTOQ/738x416.webp" alt="">
+                    <div>
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.webp" alt="">
+                    </div>
+
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/I6dfv7hld3_fZZt-PoYsUQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is4-ssl.mzstatic.com/image/thumb/S4eF69xSeArWZz2DZKaTOQ/738x416.webp" alt="">
+                    </div>
                 </div>
             </div>
-            <div id="nominee">
-                <div>
-                    <h3>Emmy® Nominees</h3>
-                    <p>Explore the series that are up for television’s biggest prize.</p>
-                </div>
-                <div id="explore">
+
+
+
+            <div id="major">
+
+                <h3>Emmy® Nominees</h3>
+                <p>Explore the series that are up for television’s biggest prize.</p>
+
+                <div id="baseball">
                     <div><img
                             src="https://is4-ssl.mzstatic.com/image/thumb/Features122/v4/56/bb/fa/56bbfa6f-9fbe-43e8-7b68-64df5287df87/ca4622ae-8ab6-45da-9713-31a930fc36ec.lsr/1478x832fe.webp"
                             alt="">
@@ -120,33 +211,33 @@
                             src="https://is2-ssl.mzstatic.com/image/thumb/Features115/v4/d7/b3/81/d7b381b1-12ff-90e4-bb35-9cda011a50c7/U0YtVFZBLVdXLVNjaG1pZ2Fkb29uX0NTLmxzcg.lsr/1478x832fe.webp"
                             alt=""></div>
                 </div>
-
-                <div id="season">
-                    <div>
-                        <h3>Watch Entire Seasons</h3>
+            </div>
+            <div class="kind">
+                <div>
+                    <h3>Watch Entire Seasons</h3>
+                </div>
+                <div class="brave">
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="">
                     </div>
-                    <div id="watch">
-                        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp"
-                                alt=""></div>
-                        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp"
-                                alt=""></div>
-                        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/WTDZpzkQlaatpb1X4w9jZg/738x416.webp"
-                                alt=""></div>
-                        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp"
-                                alt=""></div>
-                        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp"
-                                alt=""></div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/WTDZpzkQlaatpb1X4w9jZg/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt="">
                     </div>
                 </div>
-
             </div>
 
 
-            <div id="org">
-                <div>
-                    <h3>Latest Originals</h3>
-                </div>
-                <div id="originals">
+
+
+            <div class="kind">
+
+                <h3>Latest Originals</h3>
+
+                <div class="brave">
                     <div><img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/1478x832.webp"
                             alt="">
                         <div class="ori_h1">Drama</div>
@@ -185,12 +276,12 @@
 
             </div>
             <!-- <hr /> -->
-            <div id="soon">
-                <div>
-                    <h3>Coming Soon</h3>
-                    <p>Add to your Up Next watchlist today.</p>
-                </div>
-                <div id="coming">
+            <div id="major">
+
+                <h3>Coming Soon</h3>
+                <p>Add to your Up Next watchlist today.</p>
+
+                <div id="baseball">
                     <div><img
                             src="https://is4-ssl.mzstatic.com/image/thumb/Features122/v4/2e/36/85/2e368590-f069-0f88-9f4a-59d5a436db1c/5cfd13b2-2dc1-4711-b00f-32b66ed6a0e2.lsr/1478x832fe.webp"
                             alt="">
@@ -228,15 +319,14 @@
                 </div>
             </div>
 
-            <br>
 
 
 
             <div id="major">
-                <div>
-                    <h3>Major League Baseball</h3>
-                    <p> Free for a limited time, watch Friday Night Baseball and daily coverage.</p>
-                </div>
+
+                <h3>Major League Baseball</h3>
+                <p> Free for a limited time, watch Friday Night Baseball and daily coverage.</p>
+
                 <div id="baseball">
                     <div><img
                             src="https://is2-ssl.mzstatic.com/image/thumb/Features116/v4/fe/30/99/fe30991b-023f-65db-6c47-9bcaacab5977/90310982-ea94-40a5-81e4-9d8de34c261e.lsr/1478x832fe.webp"
@@ -261,8 +351,8 @@
 
             </div>
 
-            <div class="si-fi">
-                <div class="epic">
+            <div class="kind">
+                <div class="brave">
                     <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="">
                     </div>
                     <div><img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.webp" alt="">
@@ -286,10 +376,10 @@
 
             </div>
 
-            <div id="repeat">
+            <div id="major">
                 <h3>Watch, Discuss, Repeat</h3>
                 <p>Fire up your group text--you'll want to unpack these shows with your friends</p>
-                <div class="discuss">
+                <div class="brave">
                     <div><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt="">
                     </div>
                     <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
@@ -303,9 +393,9 @@
                 </div>
             </div>
 
-            <div id="page">
+            <div class="kind">
                 <h3>From Page to Screen</h3>
-                <div class="screen">
+                <div class="brave">
                     <div><img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.webp" alt="">
                     </div>
                     <div><img src="https://is2-ssl.mzstatic.com/image/thumb/WTDZpzkQlaatpb1X4w9jZg/738x416.webp" alt="">
@@ -319,9 +409,9 @@
                 </div>
             </div>
 
-            <div id="complex">
+            <div class="kind">
                 <h3>Complex Character</h3>
-                <div class="char">
+                <div class="brave">
                     <div><img src="https://is4-ssl.mzstatic.com/image/thumb/S4eF69xSeArWZz2DZKaTOQ/738x416.webp" alt="">
                     </div>
                     <div><img src="https://is1-ssl.mzstatic.com/image/thumb/5SQrBAWXONSSRweUSmuRyg/738x416.webp" alt="">
@@ -379,7 +469,7 @@
             </div>
 
 
-            <div id="kind">
+            <div class="kind">
                 <h3>All Kind of Brave</h3>
                 <div class="brave">
                     <div><img src="https://is1-ssl.mzstatic.com/image/thumb/mRDk-JQVdE2Mzo3vHtHWjQ/738x416.webp" alt="">
@@ -396,11 +486,152 @@
 
 
             </div>
-            <div id="another">
-            <div><img
-                    src="https://is4-ssl.mzstatic.com/image/thumb/Features122/v4/d8/46/9a/d8469a9e-6f67-f663-798b-c92efa29e1f7/78f3d7dc-7c87-44d9-a349-000519b5949c.png/1320x495sr.webp"
-                    alt=""></div>
 
+            <div class="no">
+                <div>
+                    <img src="Images\project2.png" alt="">
+                </div>
+
+            <div class="kind">
+                <h3>All Drama Series</h3>
+                <div class="brave">
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/WTDZpzkQlaatpb1X4w9jZg/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/I6dfv7hld3_fZZt-PoYsUQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/ewq0-5ZSairVdRtcg43s0w/738x416.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="major">
+                <h3>SEE: The Final Chapter is Here</h3>
+                <p>Baba Voss faces a deadly new weapon as the postapocalyptic saga comes to an end</p>
+                <div id="baseball">
+                    <div><img
+                            src="https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/79/74/84/7974847a-3952-f3ff-0ecb-27df2d767520/8d3dec6e-3743-47e6-b2da-46c79dec01e6.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is5-ssl.mzstatic.com/image/thumb/Features112/v4/3a/f2/23/3af2237c-b647-db35-e023-52463bf49ae7/e96143e1-5c88-46b7-8a49-20d7bc60b4d1.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is5-ssl.mzstatic.com/image/thumb/Features122/v4/c5/14/fd/c514fd7b-84a3-0568-cadb-2fdc1238c843/8e6e3327-ee94-4d4b-bfc6-5ea82cecb7c2.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/2e/ed/a1/2eeda1e5-46fe-3a99-4e38-60d701f707e5/f1bc9f34-4399-4618-92ff-44be7dd53a1f.lsr/1478x832fe.webp"
+                            alt=""></div>
+
+                </div>
+
+            </div>
+
+            <div class="kind">
+                <h3>All Feature Films</h3>
+                <div class="brave">
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/_dJgnWG8W30_qMRZYCEx-Q/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/McXcp2YSeuDh16Oph0nt6g/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/zRCSBlp0LjwClRXsjyDNYQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/xwiVfxV1l5Tfy6-1uQ25_Q/738x416.webp" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="kind">
+                <h3>All Comedy Series</h3>
+                <div class="brave">
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/XoJp7FzEyuPeFp3nZZMHJw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/neRAWaMZZ5xVz4fnbFXJUA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is4-ssl.mzstatic.com/image/thumb/vWs6dt5xDhG_DjIoc-89tA/738x416.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="major">
+                <h3>NonFiction Film Series</h3>
+                <p>Explore fascinating stories that inspire and enlighten</p>
+                <div id="baseball">
+                    <div><img
+                            src="https://is3-ssl.mzstatic.com/image/thumb/Features122/v4/40/a5/6a/40a56a15-9da2-967c-d69b-a5052bb404c5/89d54294-ded9-4ccc-859b-d5c5442c7682.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is4-ssl.mzstatic.com/image/thumb/Features116/v4/f8/7b/74/f87b74f9-ef7d-66c7-de75-6f621b9b800a/8c24d846-b3ad-4283-8424-4c055824358b.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is5-ssl.mzstatic.com/image/thumb/Features122/v4/50/62/c0/5062c0ba-9947-951a-9746-c2a8a6bbcb1d/3f5b9e26-ff9a-417a-aa68-88b07170a907.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/df/1f/ee/df1feed6-5421-226d-8f83-80b25917a79c/aa243d71-7f71-4e3a-8f1c-53fc8af38cd2.lsr/1478x832fe.webp"
+                            alt=""></div>
+                </div>
+
+            </div>
+
+            <div class="kind">
+                <h3>All Comedy Series</h3>
+                <div class="brave">
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/a99v9iRDYcIGof0CvxUUoA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/XtNPMhEaBU1FKkk_QK-DeA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is4-ssl.mzstatic.com/image/thumb/q15eqXAa_XH-L0KIDkPBJA/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Ulms3rha_yDCvDVlZyYUoQ/738x416.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="major">
+                <h3>Kids & Family</h3>
+                <p>Discover shows and movies filled with wonder and imagination</p>
+                <div id="baseball">
+                    <div><img
+                            src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/b5/f1/2e/b5f12ecf-bea3-9f40-a3f4-2b9660fa0171/6343fb11-36eb-4ccf-867f-926f0ff57529.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is3-ssl.mzstatic.com/image/thumb/Features122/v4/91/34/93/91349390-2352-3646-571d-03d259cd942c/fd2a72bc-ccfa-410b-914e-e907052c7b48.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is4-ssl.mzstatic.com/image/thumb/Features122/v4/2c/6f/1a/2c6f1a43-c21a-4dc3-a6bc-65eeda7ad8e0/8fb1cbae-88fc-44fc-a95a-18973a6f2699.lsr/1478x832fe.webp"
+                            alt=""></div>
+                    <div><img
+                            src="https://is2-ssl.mzstatic.com/image/thumb/Features122/v4/a2/75/fd/a275fdcd-be55-6ac1-0fe9-8a7e1490a6a9/b7106e74-e839-47ef-84a6-e5c258e2f401.lsr/1478x832fe.webp"
+                            alt=""></div>
+                </div>
+
+            </div>
+
+            <div class="kind">
+                <h3>Fun for All</h3>
+                <div class="brave">
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/HRBOk7ebJJpnufwvrhXLUw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/mRDk-JQVdE2Mzo3vHtHWjQ/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/d9YbWy1AerS9BZSiyoQ0Lw/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/3gwPKd4h15ZXDprBfJqYPg/738x416.webp" alt="">
+                    </div>
+                    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/P-1f-E_Qew_9syoQd34Wlw/738x416.webp" alt="">
+                    </div>
+                </div>
             </div>
 
             <!-- </div> -->
@@ -806,12 +1037,9 @@
                             </a>
                         </p>
                     </div>
-                    <div id="bttn">
-                        <button id="botom">
-                            <span>
-                                United States
-                            </span>
-
+                    <div class="bttn">
+                        <button >
+                    United States
                         </button>
 
                     </div>
@@ -836,7 +1064,7 @@
             <div>
                 <div id="start"><button>Start Free Trail</button><br></div>
 
-                <div>7 days free then $4.95/per month</div>
+                <div class="dol">7 days free then $4.95/per month</div>
             </div>
         </div>
         <script src="java\down.js"></script>
@@ -845,3 +1073,7 @@
 
 </html>
 <script src="java\signin.js"></script>
+<script src="java\privacy.js"></script>
+<script src="java\createapple.js"></script>
+
+<script src="java\search.js"></script>

@@ -16,15 +16,4 @@ document.querySelector(".sign-logo").addEventListener("click",function(){
   localStorage.setItem("Id",(apple_id))
 })
 
-// let body=document.querySelector("body");
-// let popeup=document.querySelector(".popeup")
 
-// let show=function(e){
-//     popeup.classList.toggle("hidden");
-
-//     if(! popeup.classList.toggle("hidden")){
-//         body.style.overflow="hidden"
-//     }else{
-//         body.style.overflow="auto"
-//     }
-// }
